@@ -1,0 +1,21 @@
+{
+  "name": "new-cypress-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy-open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "src/stepDefinitions/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.3",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.3.3"
+  }
+}

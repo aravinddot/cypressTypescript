@@ -1,0 +1,180 @@
+{
+  "Admin": {
+    "topHeader": [
+      "User Management",
+      "Job",
+      "Organization",
+      "Qualifications",
+      "Nationalities",
+      "Corporate Branding",
+      "Configuration"
+    ],
+    "subHeader": {
+      "User Management": [
+        "Users"
+      ],
+      "Job": [
+        "Job Titles",
+        "Pay Grades",
+        "Employment Status",
+        "Job Categories",
+        "Work Shifts"
+      ],
+      "Organization": [
+        "General Information",
+        "Locations",
+        "Structure"
+      ],
+      "Qualifications": [
+        "Skills",
+        "Education",
+        "Licenses",
+        "Languages",
+        "Memberships"
+      ],
+      "Nationalities": [],
+      "Corporate Branding": [],
+      "Configuration": [
+        "Email Configuration",
+        "Email Subscriptions",
+        "Localization",
+        "Language Packages",
+        "Modules",
+        "Social Media Authentication",
+        "Register OAuth Client",
+        "LDAP Configuration"
+      ]
+    }
+  },
+  "PIM": {
+    "topHeader": [
+      "Configuration",
+      "Employee List",
+      "Add Employee",
+      "Reports"
+    ],
+    "subHeader": {
+      "Configuration": [
+        "Optional Fields",
+        "Custom Fields",
+        "Data Import",
+        "Reporting Methods",
+        "Termination Reasons"
+      ],
+      "Employee List": [],
+      "Add Employee": [],
+      "Reports": []
+    }
+  },
+  "Leave": {
+    "topHeader": [
+      "Apply",
+      "My Leave",
+      "Entitlements",
+      "Reports",
+      "Configure",
+      "Leave List",
+      "Assign Leave"
+    ],
+    "subHeader": {
+      "Apply": [],
+      "My Leave": [],
+      "Entitlements": [
+        "Add Entitlements",
+        "Employee Entitlements",
+        "My Entitlements"
+      ],
+      "Reports": [
+        "Leave Entitlements and Usage Report",
+        "My Leave Entitlements and Usage Report"
+      ],
+      "Configure": [
+        "Leave Period",
+        "Leave Types",
+        "Work Week",
+        "Holidays"
+      ],
+      "Leave List": [],
+      "Assign Leave": []
+    }
+  },
+  "Time": {
+    "topHeader": [
+      "Timesheets",
+      "Attendance",
+      "Reports",
+      "Project Info"
+    ],
+    "subHeader": {
+      "Timesheets": [
+        "My Timesheets",
+        "Employee Timesheets"
+      ],
+      "Attendance": [
+        "My Records",
+        "Punch In/Out",
+        "Employee Records",
+        "Configuration"
+      ],
+      "Reports": [
+        "Project Reports",
+        "Employee Reports",
+        "Attendance Summary"
+      ],
+      "Project Info": [
+        "Customers",
+        "Projects"
+      ]
+    }
+  },
+  "Recruitment": {
+    "topHeader": [
+      "Candidates",
+      "Vacancies"
+    ],
+    "subHeader": {
+      "Candidates": [],
+      "Vacancies": []
+    }
+  },
+  "Performance": {
+    "topHeader": [
+      "Configure",
+      "Manage Reviews",
+      "My Trackers",
+      "Employee Trackers"
+    ],
+    "subHeader": {
+      "Configure": [
+        "KPIs",
+        "Trackers"
+      ],
+      "Manage Reviews": [
+        "Manage Reviews",
+        "My Reviews",
+        "Employee Reviews"
+      ],
+      "My Trackers": [],
+      "Employee Trackers": []
+    }
+  },
+  "Claim": {
+    "topHeader": [
+      "Configuration",
+      "Submit Claim",
+      "My Claims",
+      "Employee Claims",
+      "Assign Claim"
+    ],
+    "subHeader": {
+      "Configuration": [
+        "Events",
+        "Expense Types"
+      ],
+      "Submit Claim": [],
+      "My Claims": [],
+      "Employee Claims": [],
+      "Assign Claim": []
+    }
+  }
+}

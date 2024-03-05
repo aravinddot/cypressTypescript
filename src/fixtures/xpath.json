@@ -1,0 +1,46 @@
+{
+    "commonPageXpath": {
+        "topHeader": "//nav[@aria-label='Topbar Menu']//ul//li",
+        "topHeaderIcon": "//nav[@aria-label='Topbar Menu']//ul//li//i",
+        "topSubHeader": "//nav[@aria-label='Topbar Menu']//ul//li//li//a",
+        "activeClass" : "//nav[@aria-label='Topbar Menu']//ul//li[contains(@class, '--active')]",
+        "headerIcon" : "//nav[@aria-label='Topbar Menu']//ul//li//*[contains(text(), '$element')]//i",
+        "subHeaders": "//nav[@aria-label='Topbar Menu']//li[contains(., '$element')]//li//a",
+        "clickAddBtn": "//i[@class='oxd-icon bi-plus oxd-button-icon']",
+        "headingText": "//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title']",
+        "userRole": "//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']",
+        "userRoleStatus": "//div[@class='oxd-form-row']",
+        "typeHints": "//input[@placeholder='Type for hints...']",
+        "typeHintsSelect": "//div[@class='oxd-autocomplete-dropdown --positon-bottom']",
+        "status": "//div[@class='oxd-select-text--after']",
+        "statusSelect": "//div[@class='oxd-select-dropdown --positon-bottom']",
+        "password" : "//input[@type='password']",
+        "username": "//input[@class='oxd-input oxd-input--active oxd-input--error']",
+        "userCreated": "//div[@class='oxd-table-body']",
+        "editUserIcon": "//div[@class='oxd-table-card']//div[contains(., '$text')]//div[@class='oxd-table-cell-actions']//i[@class='oxd-icon bi-pencil-fill']",
+        "deleteIcon": "//div[@class='oxd-table-card']//div[contains(., '$text')]//div[@class='oxd-table-cell-actions']//i[@class='oxd-icon bi-trash']",
+        "deletePopUp": "//div[@role='document']",
+        "deletePopUpText": "//div[@role='document']//*[text()[contains(.,'$text')]]",
+        "deleteCancelBtn": "//div[@role='document']//*[text()[contains(.,' No, Cancel ')]]",
+        "deleteBtn": "//div[@role='document']//*[text()[contains(.,' Yes, Delete ')]]"
+
+    },
+
+    "loginPageXpaths": {
+        "userName" : "//input[@placeholder='Username']",
+        "passWord": "//input[@placeholder='Password']",
+        "submitButton": "//button[@type='submit']",
+        "invalidCredentials": "//div[@class='oxd-alert-content oxd-alert-content--error']//p"
+    },
+
+    "dashBoardPage" : {
+        "sideColumnSection" : "//ul[@class='oxd-main-menu']//li//span"
+    },
+
+    "adminPage" : {
+        "cancelBtn": "//button[normalize-space()='$Cancel']"
+    }
+
+
+  
+}
