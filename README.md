@@ -34,13 +34,7 @@
 
 ```
 
-- if need to run all cypress test in open or run mode use this following commands. It was configured in package.json file
 
-```sh
-
-    >>npm run cy-regressionAll
-
-```
 
 
 
